@@ -1,0 +1,25 @@
+// const path = require("node:path");
+// const article = require("./artikel/ARTICLE_REGISTER");
+// const fs = require("node:fs");
+
+// function replaceSpaces(text, replacement = "") {
+//   // Using regular expression to replace all spaces globally
+//   return text.replace(/\s+/g, replacement);
+// }
+
+// for (const item of article) {
+//   fs.writeFile(
+//     path.join(
+//       process.cwd(),
+//       `${replaceSpaces(item.title, "_")}_${replaceSpaces(item.date, "_")}.js`
+//     ),
+//     JSON.stringify(item),
+//     (err) => {
+//       if (err) {
+//         console.error(err);
+//       } else {
+//         // file written successfully
+//       }
+//     }
+//   );
+// }
